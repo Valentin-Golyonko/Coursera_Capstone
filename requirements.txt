@@ -1,0 +1,11 @@
+python-dotenv
+pandas
+numpy
+folium
+matplotlib
+requests
+beautifulsoup4
+geopy
+jupyterlab
+notebook
+ipython
