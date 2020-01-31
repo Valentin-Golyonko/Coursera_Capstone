@@ -1,7 +1,7 @@
 # Applied Data Science Capstone, Week 4 - 5
 
 
-# Introduction and Business Problem:
+# 1. Introduction and Business Problem:
 
 ### The task:
 Is it worth the city guests to spend money on rental housing in the city center, 
@@ -14,7 +14,7 @@ or can they save money and choose a different area of the city ?!
 This data should help city guests to find areas and find the right place to stay.
 
 
-# Data section:
+# 2. Data section:
 - Foursquare venues data - 4049;
 - the distance from the center of each neighborhoods is 858 meters - 
 this is half of the average distance between the centers of the neighborhoods 
