@@ -25,9 +25,11 @@ Google GEO API and geopy library.
 
 
 # 3.1 Work with data:
-- 122 post offices were parsed from the html page using Beautifulsoup. See attached file - <a href="https://github.com/Valentin-Golyonko/Coursera_Capstone/blob/master/blr/find_post_offices.ipynb" target="_blank">find_post_offices notebook</a>;
+- 122 post offices were parsed from the html page using Beautifulsoup.
+- See attached file - <a href="https://github.com/Valentin-Golyonko/Coursera_Capstone/blob/master/blr/find_post_offices.ipynb" target="_blank">find_post_offices notebook</a>;
 - <img src="https://github.com/Valentin-Golyonko/Coursera_Capstone/blob/master/blr/imgs/zip_codes_minsk_list.png" alt="zip_codes_minsk_list">
-- Using Foursquare API, 4049 points were collected, after filtering unnecessary data, 2187 points remained, which give 310 unique points (places). See attached file - <a href="https://github.com/Valentin-Golyonko/Coursera_Capstone/blob/master/blr/minsk_venues.ipynb" target="_blank">minsk_venues notebook</a>;
+- Using Foursquare API, 4049 points were collected, after filtering unnecessary data, 2187 points remained, which give 310 unique points (places).
+- See attached file - <a href="https://github.com/Valentin-Golyonko/Coursera_Capstone/blob/master/blr/minsk_venues.ipynb" target="_blank">minsk_venues notebook</a>;
 - Duplicate data and noise points like [Trail, Bus Stop, Bus Station, Moving Target, Bus Line, Platform] were excluded;
 - <img src="https://github.com/Valentin-Golyonko/Coursera_Capstone/blob/master/blr/imgs/minsk_venues.png" alt="minsk_venues">
 - I used the k-means clustering method, the number of clusters is 5;
@@ -50,7 +52,8 @@ It is nice to confirm that public transport is very developed in the city!
 - It can be concluded that k-means clustering is not enough to solve the busies problem.
 
 # 3.2 Work with additional data:
-- I found a way to increase the amount of data I need. <a href="https://github.com/Valentin-Golyonko/Coursera_Capstone/blob/master/blr/Minsk_flats_data.ipynb" target="_blank">Minsk_flats_data notebook</a>.
+- I found a way to increase the amount of data I need. 
+- <a href="https://github.com/Valentin-Golyonko/Coursera_Capstone/blob/master/blr/Minsk_flats_data.ipynb" target="_blank">Minsk_flats_data notebook</a>.
 - This is the price of apartments in different parts of the city.
 - I parsed 21 pages of a some local site and found around 900 rental offers 
 (everything was done purely for scientific purposes).
