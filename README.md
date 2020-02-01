@@ -78,4 +78,4 @@ The cluster with the largest number of venue points was distributed in the city 
  
 As you can see, city guests can find _some_ places to stay not far from the city center with good apartments prices.
 
-_The price indicated on the graphs and tables is the average price for one-room apartments per month!_
+_The price indicated on the graphs (and some tables) is the average price for one-room apartments per month!_
