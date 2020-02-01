@@ -9,3 +9,6 @@ geopy
 jupyterlab
 notebook
 ipython
+shapely
+geojson
+scikit-learn
