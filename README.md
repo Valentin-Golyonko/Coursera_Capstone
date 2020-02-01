@@ -76,4 +76,4 @@ Combined these names with apartment data.
 
 The cluster with the largest number of venue points was distributed in the city center and along the metro lines.
  
-As you can see, city guests can find some places to stay not far from the city center with good apartments prices.
+As you can see, city guests can find _some_ places to stay not far from the city center with good apartments prices.
