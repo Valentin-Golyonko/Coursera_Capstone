@@ -49,7 +49,7 @@ Google GEO API and geopy library.
 - Unexpected result: before filtering, in the top 3 there was a 'Bus Stop' in each cluster! 
 It is nice to confirm that public transport is very developed in the city!
 - After many iterations, it turned out that fluctuations in cluster sizes are due to a small amount of data.
-- It can be concluded that k-means clustering is not enough to solve the busies problem.
+- It can be concluded that k-means clustering is not enough to solve the busines problem.
 
 # 3.2 Work with additional data:
 - I found a way to increase the amount of data I need. 
