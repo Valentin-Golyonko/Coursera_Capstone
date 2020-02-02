@@ -38,17 +38,18 @@ Google GEO API and geopy library.
 - The number of elements in each cluster slightly changed, here are the limits of change:
     - cluster 1: 80 - 110;
     - cluster 2: 7 - 20;
-    - cluster 3: 2 - 7;
+    - cluster 3: 2 - 8;
     - cluster 4: up to 2;
     - cluster 5: up to 2.
 
 
 # 4.1 Intermediate conclusions:
-- The most popular places are:
+- The most common places are:
     - Coffee Shop, Gym, Department Store, Food & Drink Shop;
 - Unexpected result: before filtering, in the top 3 there was a 'Bus Stop' in each cluster! 
 It is nice to confirm that public transport is very developed in the city!
 - After many iterations, it turned out that fluctuations in cluster sizes are due to a small amount of data.
+- Free account Foursquare API does not allow you (50 request limit) to collect more data about venues: likes, ratings, tier prince. Аnd this is critical for this research!
 - It can be concluded that k-means clustering is not enough to solve the busines problem.
 
 # 3.2 Work with additional data:
@@ -70,11 +71,11 @@ Combined these names with apartment data.
 # 4.2 Final results:
 - <a href="https://github.com/Valentin-Golyonko/Coursera_Capstone/blob/master/blr/Final%20result.ipynb" target="_blank">Final result notebook</a>
 - <img src="https://github.com/Valentin-Golyonko/Coursera_Capstone/blob/master/blr/imgs/final_result.png" alt="final_result">
-- Round colored dots - clusters with top 10 popular spots within a radius of 860 meters from them. 
+- Round colored dots - clusters with top 10 common spots within a radius of 860 meters from them. 
 - Blue lines - two metro (subway) lines.
 
 
-The cluster with the largest number of venue points was distributed in the city center and along the metro lines.
+The cluster with the largest number of venue points was distributed in the city center and along the metro lines. So, all activities, shops, cafes or restaurants are here, in this locations.
  
 As you can see, city guests can find _some_ places to stay not far from the city center with good apartments prices.
 
